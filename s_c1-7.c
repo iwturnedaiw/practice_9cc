@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int power(int, int);
+int power();
 
 int main() {
   return power(2, 4);
