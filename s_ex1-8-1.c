@@ -4,7 +4,7 @@ void main() {
   int cnt = 0;
   int c;
   while ( (c = getchar()) != EOF)
-    if ( c != '\n' && isspace(c) ) cnt++;
+    if ( c != ' ' ) cnt++;
   printf("%d\n", cnt);
   return ;
 }
